@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Funny Joke</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  main {
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Daily Funny Joke</h1>
+  </header>
+  <main>
+    <div id="joke">
+      <!-- The joke will be displayed here -->
+    </div>
+    <button id="getJoke">Get Another Joke</button>
+  </main>
+  <script>
+    const jokes = [
+      "Why don't scientists trust atoms? Because they make up everything!",
+      "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+      "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
+      // Add more jokes here
+    ];
+
+    const jokeElement = document.getElementById("joke");
+    const getJokeButton = document.getElementById("getJoke");
+
+    function getRandomJoke() {
+      const randomIndex = Math.floor(Math.random() * jokes.length);
+      jokeElement.textContent = jokes[randomIndex];
+    }
+
+    getJokeButton.addEventListener("click", getRandomJoke);
+    getRandomJoke(); // Display initial joke
+  </script>
+</body>
+</html>
