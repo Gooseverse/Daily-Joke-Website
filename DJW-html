@@ -33,11 +33,39 @@
   </main>
   <script>
     const jokes = [
-      "Why don't scientists trust atoms? Because they make up everything!",
-      "Parallel lines have so much in common. It’s a shame they’ll never meet.",
-      "I told my wife she was drawing her eyebrows too high. She seemed surprised.",
-      // Add more jokes here
-    ];
+  "Why don't crypto traders ever get lost? Because they always follow the blockchain!",
+  "Why did the blockchain go to therapy? It had too many issues.",
+  "Why did the Bitcoin miner go to school? To improve his hashing skills!",
+  "I told my computer I needed more space for crypto. Now it's mining asteroids.",
+  "Why did the crypto investor bring a ladder to the ICO? Because they heard the returns were going to the moon!",
+  "Why do crypto programmers prefer cold weather? Because they like to mine!",
+  "Why was the blockchain musician always off-beat? Because they didn't trust the timestamps.",
+  "Why did the Ethereum developer get lost? They were stuck in a smart contract loop.",
+  "Why was the Bitcoin miner always calm? Because they had a steady hash rate!",
+  "Why did the altcoin go to therapy? It had identity issues.",
+  "Why did the blockchain go to the comedy club? To work on its timing.",
+  "Why don't blockchain networks ever argue? Because they reach consensus!",
+  "Why did the crypto wallet break up with the password? It found out it was too insecure.",
+  "Why did the crypto trader bring a ladder to the bull market? Because they wanted to catch the highs!",
+  "Why was the Bitcoin wallet always empty? Because it kept forking over its funds!",
+  "Why was the crypto miner terrible at relationships? Because they couldn't commit to just one coin.",
+  "Why was the blockchain developer bad at cooking? They always burned the hash.",
+  "Why did the Ethereum contract cross the road? To validate the chicken's transactions!",
+  "Why did the altcoin get detention? Because it couldn't keep its promises!",
+  "Why was the Bitcoin so moody? Because its value kept fluctuating!",
+  "Why did the crypto investor bring a calculator to the art show? To determine its NFT's real value!",
+  "Why did the blockchain investor become a gardener? They wanted to watch their assets grow!",
+  "Why did the altcoin join a gym? To get in shape for the pump and dump!",
+  "Why did the crypto trader become a chef? Because they heard there was a lot of potential for flipping!",
+  "Why did the Bitcoin wallet refuse to go to the party? It was afraid of getting hacked!",
+  "Why did the blockchain programmer get in trouble? They didn't hash out their ideas properly.",
+  "Why did the altcoin go to therapy? It needed help with its decentralized identity.",
+  "Why did the crypto miner get a pet bird? For some extra tweet-coin mining!",
+  "Why did the blockchain developer break up with their computer? It couldn't handle their commitment issues.",
+  "Why was the crypto investor always confident? Because they held strong through the FUD!",
+  "Why did the Bitcoin go to the gym? To work on its hashing power!"
+];
+
 
     const jokeElement = document.getElementById("joke");
     const getJokeButton = document.getElementById("getJoke");
